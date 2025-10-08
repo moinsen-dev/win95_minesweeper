@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "dart": {
+      "command": "dart",
+      "args": ["mcp-server"]
+    },
+    "ios-simulator": {
+      "command": "npx",
+      "args": ["-y", "ios-simulator-mcp"]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    },
+    "package-hero": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/udi/work/moinsen/opensource/mcp-package-hero",
+        "mcp-package-hero"
+      ]
+    }
+  }
+}
